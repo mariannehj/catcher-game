@@ -59,7 +59,7 @@ poeng = 0
 
 # Funksjon som viser antall poeng
 def display_points():
-    text_img = font.render(f"Antall poeng: {poeng}", True, WHITE)
+    text_img = font.render(f"Antall poeng: {poeng}", True, BLACK)
     surface.blit(text_img, (20, 10))
 
 
